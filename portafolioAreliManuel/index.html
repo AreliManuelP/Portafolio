@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!-- Metadatos -->
+    <meta charset="utf-8">
+    <!-- Autor del portafolio -->
+    <meta name="author" content="Areli Manuel">
+    <!-- Descripcion -->
+    <meta name="description" content="Portafolio de desarrollo web de Areli Manuel">
+    <meta name="keywords" content="HTML, CSS, JavaScript, React, Bootstrap">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Titulo -->
+    <title>Areli Manuel | Desarrollo Web Front-End</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="imagenes/icono.png">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- Iconos de Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!-- CSS -->
+    <link href="style.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Rubik+Dirt&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Barra de navegacion -->
+    <nav class="navbar navbar-expand-md bg-warning navbar-light">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-toggler">
+          <a class="navbar-brand" href="#">
+            <img src="https://img.icons8.com/?size=100&id=fnGjD6W9jCBt&format=png&color=000000" width="50" alt="Logo de la página web">
+          </a>
+          <ul class="navbar-nav d-flex justify-content-center align-items-center">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#sobre-mi">Sobre mí</a>
+            </li>
+           
+            <li class="nav-item">
+              <a class="nav-link" href="#proyectos">Proyectos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#certificados">Certificados</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacto">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Seccion Hero -->
+    <section class="hero align-items-stretch">
+      <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+        <img class="hero-imagen-desarrollador rounded-circle" src="imagenes/foto1.jpg" alt="Foto de Jane Doe">
+        <h1>Hola, soy Areli Manuel Pomposo</h1>
+        <!--<h2>Desarrollo sitios web y escribo artículos sobre programación.</h2>-->
+
+        <!--Animación con JavaScript-->
+        <h2 class="text-primary mb-4" id="typewriter"></h2>
+      </div>
+      <div class="hero-inferior">
+        <img class="hero-inferior-imagen img-fluid" src="imagenes/imgPrincipal1.jpg" alt="Monitor, laptop y logos de HTML, CSS, JavaScript y React.">
+      </div>
+      <br>
+    </section>
+  
+
+    <!-- Sobre mi -->
+<div>
+  <section id="sobre-mi" class="sobre-mi seccion-oscura">
+    <div class="contenedor">
+      <h2 class="seccion-titulo">Conoce a Areli Manuel</h2>
+      <p class="seccion-texto">
+        Soy egresada de Ingeniería en Sistemas Computacionales, motivada para aportar en el ámbito laboral con soluciones tecnológicas innovadoras.
+        Me destaco por fomentar la comunicación abierta y el trabajo en equipo, cualidades esenciales que potencian mi capacidad para colaborar en proyectos. Además, cuento con habilidades técnicas en herramientas de diseño y desarrollo frontend, lo que me permite abordar problemas con creatividad y eficiencia.
+        Mi objetivo es crecer profesionalmente en un entorno dinámico, donde pueda seguir aprendiendo, perfeccionando mis competencias y contribuyendo al éxito del equipo al que me una.
+      </p>
+      <!-- Herramientas -->
+      <div class="herramientas">
+        <p class="seccion-herramientas"><strong>Herramientas Básicas:</strong></p>
+        <div class="herramientas-grid">
+          <img src="https://img.icons8.com/?size=100&id=21278&format=png" alt="HTML5">
+          <img src="https://img.icons8.com/?size=100&id=20909&format=png" alt="CSS3">
+          <img src="https://img.icons8.com/?size=100&id=tGvHBPJaKqEd&format=png" alt="JavaScript">
+          <img src="https://img.icons8.com/?size=100&id=laYYF3dV0Iew&format=png" alt="Bootstrap">
+          <img src="https://img.icons8.com/?size=100&id=39913&format=png" alt="Git">
+          <img src="https://img.icons8.com/?size=100&id=13441&format=png" alt="GitHub">
+          <img src="https://img.icons8.com/?size=100&id=fAMVO_fuoOuC&format=png" alt="Figma">
+          <img src="https://img.icons8.com/?size=100&id=04OFrkjznvcd&format=png" alt="VS Code">
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+
+    <!-- Experiencia -->
+    <section class="experiencia seccion-clara">
+      <div class="container text-center">
+        <div class="row">
+          <!-- Desarrollo Web -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Desarrollo Web</p>
+            <p>Me estoy desarrollando en Desarrollo web especialmente en Front-end </p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-info">HTML</span>
+              <span class="badge text-bg-info">CSS</span>
+              <span class="badge text-bg-info">JavaScript</span>
+              <span class="badge text-bg-info">React</span>
+              <span class="badge text-bg-info">Bootstrap</span>
+            </div>
+          </div>
+          <!-- Articulos -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Herramientas</p>
+            <p>Paginas web basicas con HTML y CSS, junto con proyectos escolares como pataforma educativas, Formularios, Gestión de proyectos y realizacion de memoria tecnica  </p>
+            <div class="badges-contenedor">
+             
+              <span class="badge text-bg-info">Diseño de interfaz</span>
+              <span class="badge text-bg-info">Python</span>
+              <span class="badge text-bg-info">SQL server, Oracle</span>
+              <span class="badge text-bg-info">Power BI, Básico</span>
+            </div>
+          </div>
+          <!-- Estudiante -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Estudiante</p>
+            <p>Ingenieria en Sistemas Computacionales </p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-info">Tecnolochicas PRO</span>
+              <span class="badge text-bg-info">Desarrollo Web</span>
+              <span class="badge text-bg-info">Mujer Digital|AWS</span>
+              <span class="badge text-bg-info">Aluras|ONE-Oracle Next Education </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Proyectos -->
+    <section id="proyectos" class="proyectos-recientes seccion-clara d-flex flex-column">
+      <h2 class="seccion-titulo texto-negro">Mis proyectos recientes</h2>
+      <h3 class="seccion-descripcion">Estos son algunos proyectos que he creado recientemente...</h3>
+      <!-- Galeria de Proyectos -->
+      <div class="container text-center proyectos-contenedor">
+        <div class="row">
+          <!-- Proyecto 1 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/clongoogle.png "alt="Proyecto 1">
+              <div class="overlay">
+                <p>"Clonación de Google"</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/AreliManuelP/CloneGooglebasic" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://magical-clafoutis-2ff96b.netlify.app/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 2 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/googleBarbie.png" alt="Proyecto 2">
+              <div class="overlay">
+                <p>"Google Barbie personalizado"</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/AreliManuelP/Google2-Barbie" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://googlebarbie.netlify.app/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 3 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/primeraPagina.png" alt="Proyecto 3">
+              <div class="overlay">
+                <p>"PrimeraPagina LASHES"</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/AreliManuelP/PaginaLASHES" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://primerapaginalashes.netlify.app" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 4 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/loginPHP.png" alt="Proyecto 4">
+              <div class="overlay">
+                <p>Proyecto dar alta materias "CRUD" PHP conexion a Oracle BDD</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/AreliManuelP/CargarMateriasPhp" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="crud-php-login.netlify.app" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 5 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/CRUP PYTHON.png" alt="Proyecto 5">
+              <div class="overlay">
+                <p>Proyecto dar alta materias "CRUD" PYTHON conexion a Oracle BDD</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/AreliManuelP/CRUD-Python-Conexion-Oracle" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 6 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/plataformaEduca.png" alt="Proyecto 6">
+              <div class="overlay">
+                <p>Plataforma Educativa</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/AreliManuelP" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a href="https://github.com/AreliManuelP" target="_blank" rel="noopener noreferrer">
+        <button type="button" class="btn btn-info">
+          Ver más proyectos
+          <i class="bi bi-arrow-right-circle-fill"></i>
+        </button>
+      </a>
+
+      <!-- 
+       -->
+
+        <!-- CERTIFICICADOS  -->
+
+    <section id="certificados" class="certificados-recientes seccion-clara d-flex flex-column">
+      <h2 class="seccion-titulo texto-negro">Mis certificados recientes</h2>
+<!-- certificado 1 -->
+      <div class="row">
+        <div class="col-sm-3 mb-3 mb-sm-0">
+          <div class="card">
+            <div class="card-body">
+              <img src="imagenes/certificados/1certif.png" class="card-img-top" alt=" Programa Oracle Next Education F2 T7 Back-end">
+              <h5 class="card-title">Programa Oracle Next Education F2 T7 Back-end</h5>
+              <!-- <p class="card-text">Certificado de Finalización del Programa</p> -->
+              <a href="imagenes/certificados/1Areli Manuel Pomposo - Programa -.pdf" class="btn btn-warning" Target="_blank">Ver Certificado</a>
+            </div>
+          </div>
+        </div>
+        <!-- certificado 2 -->
+        <div class="col-sm-3">
+          <div class="card">
+            <div class="card-body">
+              <img src="imagenes/certificados/2certif.png" class="card-img-top" alt="...">
+              <h5 class="card-title">Diseño Web, Practico</h5>
+              <p class="card-text">Certificado de Finalización</p>
+              <a href="imagenes/certificados/2UC-718043aa-83e1-4899-b0a1-ce310d6a33c8.pdf" class="btn btn-warning" Target="_blank">Ver Certificado</a>
+            </div>
+          </div>
+        </div>
+        <!-- certificado 3 -->
+        <div class="col-sm-3">
+          <div class="card">
+            <div class="card-body">
+              <img src="imagenes/certificados/3certif.png" class="card-img-top" alt="...">
+              <h5 class="card-title">React:de cero</h5>
+              <p class="card-text">Certificado de Finalización</p>
+              <a href="imagenes/certificados/3UC-a322e98e-4b42-46e3-b4ce-ffd4a765b9dc.pdf" class="btn btn-warning" Target="_blank">Ver Certificado</a>
+            </div>
+          </div>
+        </div>
+        <!-- certificado 4 -->
+        <div class="col-sm-3">
+          <div class="card">
+            <div class="card-body">
+              <img src="imagenes/certificados/4certif.png" class="card-img-top" alt="...">
+              <h5 class="card-title">Fundamentos de la Nube AWS</h5>
+              <p class="card-text">Certificado de Finalización</p>
+              <a href="imagenes/certificados/4Certificate-Fundamentos de Nube AWS.pdf" class="btn btn-warning" Target="_blank">Ver Certificado</a>
+            </div>
+          </div>
+        </div>
+       <!-- certificado 5 -->
+        <div class="col-sm-3">
+          <div class="card">
+            <div class="card-body">
+              <img src="imagenes/certificados/5certif.png" class="card-img-top" alt="...">
+              <h5 class="card-title">Conocimientos en HTML, CSS, JS y empleabilidad</h5>
+              <p class="card-text">Certificado de Finalización</p>
+              <a href="imagenes/certificados/5Areli Manuel Pomposo.pdf" class="btn btn-warning" Target="_blank">Ver Certificado</a>
+            </div>
+          </div>
+        </div>
+        <!-- certificado 6 -->
+        <div class="col-sm-2">
+          <div class="card">
+            <div class="card-body">
+              <img src="imagenes/certificados/6certif.png" class="card-img-top" alt="...">
+              <h5 class="card-title">HTML y CSS: Clases, Posicionamiento y Flexbox</h5>
+              <p class="card-text">Certificado de Finalización</p>
+              <a href="imagenes/certificados/6Areli Manuel Pomposo - Curso HTML y CSS_ Clases, Posicionamiento y Flexbox - Alura.pdf" class="btn btn-warning" Target="_blank">Ver Certificado</a>
+            </div>
+          </div>
+        </div>
+        <!-- certificado 7 -->
+        <div class="col-sm-2">
+          <div class="card">
+            <div class="card-body">
+              <img src="imagenes/certificados/7certif.png" class="card-img-top" alt="...">
+              <h5 class="card-title">HTML y CSS: Header, Footer y Variables Css</h5>
+              <p class="card-text">Certificado de Finalización</p>
+              <a href="imagenes/certificados/7Areli Manuel Pomposo - Curso HTML y CSS_ header, footer y variables CSS - Alura.pdf" class="btn btn-warning" Target="_blank">Ver Certificado</a>
+            </div>
+          </div>
+        </div>
+        <!-- certificado 8 -->
+        <div class="col-sm-2">
+          <div class="card">
+            <div class="card-body">
+              <img src="imagenes/certificados/8certif.png" class="card-img-top" alt="...">
+              <h5 class="card-title">JAVA: Creando Tu Primera Api y Conectándola al Front End</h5>
+              <p class="card-text">Certificado de Finalización</p>
+              <a href="imagenes/certificados/8Areli Manuel Pomposo - Curso Java_ creando tu primera API y conectándola al Front End - Alura.pdf" class="btn btn-warning" Target="_blank">Ver Certificado</a>
+            </div>
+          </div>
+        </div>
+        <!-- certificado 9 -->
+        <div class="col-sm-3">
+          <div class="card">
+            <div class="card-body">
+              <img src="imagenes/certificados/9certif.png" class="card-img-top" alt="...">
+              <h5 class="card-title">DEV con Javascrip</h5>
+              <p class="card-text">Certificado de Finalización</p>
+              <a href="imagenes/certificados/9Certificate for Areli Manuel Pomposo for _Semana de la Carrera Tech- ..._.pdf" class="btn btn-warning" Target="_blank">Ver Certificado</a>
+            </div>
+          </div>
+        </div>
+    
+      </div>
+<!--  -->
+
+    </section>
+       <!-- CV -->
+      <a class="seccion-titulo texto-negro" href="imagenes/CV-AreliManuel.pdf" Target="_blank">
+        <button class="cv-boton" type="button"> 
+          Ver CV
+          <img id="imgcv" src="imagenes/curriculum-vitae.png" alt="Icon">
+      </button>
+      </a>
+    </section>
+
+   <br>
+   <br>
+    
+    <!-- Contacto -->
+    <section id="contacto" class="contacto seccion-oscura">
+      <div class="container">
+        <div class="container text-center rectangulo d-flex justify-content-evenly">
+          <div class="row">
+            <div class="col-12 col-md-4 seccion-titulo">
+              ¡Hablemos!
+            </div>
+            <div class="col-12 col-md-4 descripcion">
+              Aunque estoy comenzando en este emocionante camino, tengo la pasión y la disposición para aprender y adaptarme a tus necesidades. Contáctame.
+            </div>
+            <div class="col-12 col-md-4">
+              <a href="mailto:arelii.manuel.7@gmail.com">
+                <button type="button">  
+                  Contacto
+                  <!-- <i class="bi bi-envelope-check-fill"></i> -->
+                  <i><img src="https://img.icons8.com/?size=100&id=108813&format=png&color=000000" alt=""></i>
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Pie de pagina (footer) -->
+    <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center"> 
+      <!-- <img class="footer-logo" src="imagenes/icono-blanco.svg" alt="Logo del portafolio"> -->
+            <img class="footer-logo" src="https://img.icons8.com/?size=100&id=64810&format=png&color=000000" alt="Logo del portafolio">
+            <img class="footer-logo" src="https://img.icons8.com/?size=100&id=79062&format=png&color=000000" alt="Logo del portafolio">
+      <p class="footer-texto text-center">Aprendo y me preparo  cada día para mejorar mis habilidades. <br>¡Contáctame y hagamos realidad tus ideas!.</p>
+      <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+       
+        <a href="https://github.com/AreliManuelP" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-github"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/areli-manuel-643bb22a5/" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-linkedin"></i>
+        </a>
+        
+        <a href="mailto:arelii.manuel.7@gmail.com" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-envelope"></i>
+        </a>
+      </div>
+      <div class="derechos-de-autor">Creado por Areli Manuel &#169;</div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+        <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+        <script src="main.js"></script>
+
+  </body>
+</html>
